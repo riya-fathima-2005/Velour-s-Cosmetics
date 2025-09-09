@@ -1,0 +1,83 @@
+
+.div1 {
+    background-color: rgb(240, 223, 234);
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+    align-items: center;
+    
+}
+
+.ttt {
+    display: flex;
+    gap: 30px;
+    
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.point {
+    list-style: none;
+    color: brown;
+}
+
+.velo {
+    display: flex;
+
+}
+.poli{
+    width: 1000px;
+height: 300px;
+}
+.banner{
+    background-image: url(elegant-skin-care-banner-design_23-2149480129.jpg);
+    width: 1530px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: none;
+}
+.riy{
+    color: rgba(149, 39, 14, 0.985);
+    padding: 200px;
+     transition: 1s;
+    transform: scale(1.3);
+    animation: infinite;
+    
+    font-size: 40px;
+}
+.par{
+    margin-left: 100px;    
+}
+P::first-letter{
+    font-weight: bold;
+    padding-right: 5px;
+    color: brown;
+    font-size: 4rex;
+}
+footer{
+    background-color: rgb(244, 217, 221);
+    background-size: cover;
+    height: 250px;
+color: brown;
+}
+.ftr{
+    display: flex;
+    justify-content:  space-around;
+   margin-top: 50px;
+   padding: 40px;
+    
+}
+    .email{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+}
+.class{
+    width: 80px; height: 30px; margin-top: 10px; color: brown;
+}
+.class:hover{
+    width: 80px; height: 30px; margin-top: 10px; color: brown; background-color: black;
+}
