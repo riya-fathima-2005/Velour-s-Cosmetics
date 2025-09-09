@@ -12,6 +12,14 @@
     gap: 30px;
     
 }
+.parents{
+    display: flex;
+    background-color: rgb(172, 133, 133);
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
 
 body {
     margin: 0px;

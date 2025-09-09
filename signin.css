@@ -20,10 +20,10 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url(download\ \(19\).jpeg);
 background-repeat: none;
 background-size: cover;
 height: 700px;
+
     
 }
 body{
@@ -31,10 +31,70 @@ body{
 
 }
 .bbg{
-    background-color: aliceblue;
+background-color: rgba(225, 225, 225, 0.001);
 width: 560px;
 margin-left: 50px;
 border-radius: 15px;
 padding: 20px;
-  
+backdrop-filter: blur(10px);
+box-shadow: 0 0 25px rgba( 0, 0, 0, 0.5);
+transform: translateY(30px);  
+ border-radius: 15px;
+ border-color: black ;
+}
+
+
+.video-banner {
+ position: relative;
+ height: 700px;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+}
+.video-bg {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 700px;
+ object-fit: cover;
+ z-index: -2;
+}
+.overlay {
+ position: absolute;
+ top: 0; left: 0;
+ width: 100%; height: 100%;
+ background: rgba(0,0,0,0.5);
+ z-index: -1;
+}
+.banner-caption {
+ text-align: center;
+ z-index: 1;
+ max-width: 800px;
+ padding: 20px;
+}
+.banner-caption h1 {
+ font-size: 3rem;
+ font-weight: bold;
+ margin-bottom: 15px;
+}
+.banner-caption p {
+ font-size: 1.2rem;
+ margin-bottom: 20px;
+}
+.btn-banner {
+ display: inline-block;
+ padding: 12px 25px;
+ background: #F5C518;
+ color: #000;
+ font-weight: bold;
+ text-decoration: none;
+ border-radius: 6px;
+ transition: 0.3s;
+}
+.btn-banner:hover {
+ background: #FFC107;
+ color: #111;
 }
