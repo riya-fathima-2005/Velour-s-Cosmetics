@@ -328,3 +328,10 @@ button{
  background: #FFC107;
  color: #111;
 }
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: rgb(255, 239, 239);
+    }
+    
+}
