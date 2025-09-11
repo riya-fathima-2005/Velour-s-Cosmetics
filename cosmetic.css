@@ -426,7 +426,10 @@ color: brown;
 .footervelora{
     text-align: center;
 }
-
+.cleanandkind{
+    text-align: center;
+    margin-top: 80px;
+}
 
 @media screen and (max-width: 768px) {
  .div2{
