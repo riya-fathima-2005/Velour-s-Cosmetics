@@ -1,0 +1,61 @@
+.img {
+    background-image: url(Untitled\ design.png);
+    height: 600px;
+    width: 1513px;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+header{
+    position: fixed;
+    width: 1520px;
+    margin: 0;
+}
+
+.div1 {
+    background-color: rgb(245, 240, 243);
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+    align-items: center;
+    
+}
+
+.ttt {
+    display: flex;
+    gap: 30px;
+    
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.velo {
+    display: flex;
+
+}
+
+.point {
+    list-style: none;
+    color: brown;
+}
+.image{
+    background-image: url(bannerimagegallery.png);
+    width: 1520px;
+    height: 650px;
+    background-size: cover;
+    background-repeat: none;
+    
+}
+.divq{
+    height: 450px;
+    width: 300px;
+    background-color: bisque;
+    margin-top: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
