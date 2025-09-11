@@ -59,3 +59,31 @@ body{
     border-radius: 15px;
     text-align: center;
 }
+footer{
+    background-color: rgb(244, 217, 221);
+    background-size: cover;
+    height: 250px;
+color: brown;
+}
+.ftr{
+    display: flex;
+    justify-content:  space-around;
+   margin-top: 50px;
+   padding: 40px;
+    
+}
+.email{
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+    .class{
+    width: 80px; height: 30px; margin-top: 10px; color: brown; cursor: pointer;
+}
+.class:hover{
+    width: 80px; height: 30px; margin-top: 10px; color: brown; background-color: black;
+}
+.main11{
+    margin-right: 10px;
+}
