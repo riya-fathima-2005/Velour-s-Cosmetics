@@ -7,17 +7,19 @@
     background-size: cover;
 
 }
+.divvelora{
+    font-size: 15px;
+}
 
 
 header{
-    position: fixed;
-    width: 1520px;
+  
     margin: 0;
 }
 
 .div1 {
-    background-color: rgb(245, 240, 243);
-    display: flex;
+    background-color: rgb(249, 237, 244);
+    display: flex; 
     justify-content: space-around;
     color: brown;
     align-items: center;
@@ -27,6 +29,11 @@ header{
 .ttt {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+     list-style: none;
+    color: brown;
+    font-size: 13px;
+
     
 }
 .span{
@@ -42,14 +49,13 @@ main{
    margin-top: -200px;
    margin-right: 100px;
 }
+.input11{
+    width: 200px;
+}
 
 body {
     margin: 0px;
-}
-
-.point {
-    list-style: none;
-    color: brown;
+    overflow-x: hidden;
 }
 
 .velo {
@@ -72,7 +78,7 @@ body {
 100%{left: 0px; top: 0px;}
    }
 .vedio1{
-    height: 1000px;
+    height: 1050px;
 }
 .div2{
     height: 470px;
@@ -92,7 +98,9 @@ body {
     
 }
 .div3{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
+    overflow: hidden;
     justify-content: space-around;
     gap:20px;
     
@@ -179,6 +187,7 @@ body {
     display: flex;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 .Add:hover{
@@ -331,6 +340,39 @@ button{
 .div4{
     width: 270px; height: 250px
 }
+.shopby{
+     color: brown; text-align: center; text-shadow: 5px 5px 5px gray; margin-bottom: 40px;
+}
+.removebg{
+    width: 70px;
+    height: 70px;
+}
+.skintoneimage1{
+    width: 500px; 
+    height: 500px; 
+    margin-left: 500px;
+}
+.vedioo2{
+    width: 750px;
+     height: 500px;
+     margin-top: 20px;
+     margin-left: 400px;
+}
+.bestseller{
+color: brown;
+ text-align: center;
+  text-shadow: 5px 5px 5px gray;
+ margin-top: 50px;
+}
+.shadoe{
+    margin-top: 250px;
+     margin-left: 50px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
  .div2{
@@ -339,11 +381,94 @@ margin-left: 40px;
 margin-bottom: 30px;
 margin-top: 20px;}
 .div4{
-      width: 40%;
-margin-left: 40px;
+      width: 70%;
+margin-left: 30px;
 margin-bottom: 30px;
 margin-top: 20px;  
 height: 100px;
 }
+
+.more{
+   
     
+       margin-left: 160px;  
+       margin-bottom: 100px;  
+       border: solid 1px;
+       border-radius: 9px;
+       cursor: pointer;
+}
+.skintoneimage1{
+    width: 250px; 
+    height: 250px; 
+    margin-left: 90px;
+    gap: 10px;
+    margin-right: 1000px;
+}
+
+.readmore{
+    width: 90px;
+     height: 30px;
+      padding: 5px;
+       margin-left: 50px;
+      justify-content: center;
+    }
+    
+.shopby{
+
+     margin-bottom: 30px; 
+     font-size: 15px;
+   margin-right: 100px;
+}
+.div1 {
+    background-color: rgb(249, 237, 244);
+    margin-right: 1090px;
+    height: 90px;
+
+}
+.divvelora{
+    font-size: 10px;
+}
+.removebg{
+    width: 40px;
+    height: 40px;
+}
+.input11{
+    width: 100px;
+}
+.div2{
+    height: 470px;
+    margin-top: 40px;
+    width: 200px;
+    background-color: rgba(240, 248, 255, 0.852);
+    height: 400px;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+.vedioo2{
+    width: 150px;
+     height: 150px;
+      margin-left: 50px;  
+     
+}
+.bestseller{
+color: brown;
+font-size: 15px;
+ margin-top: 50px;
+}
+.shopby{
+     color: brown;
+     text-align: center; 
+     text-shadow: 5px 5px 5px gray;
+      margin-bottom: 40px; 
+      margin-left: 150px;
+      font-size: 15px;
+    }
+.shadoe{
+    margin-top: 250px;
+     margin-left: 50px;
+}
+
+
+
 }
