@@ -328,11 +328,22 @@ button{
  background: #FFC107;
  color: #111;
 }
+.div4{
+    width: 270px; height: 250px
+}
 
-@media screen and (min-width: 425px) {
-    body{
-        background-color: rgb(250, 241, 241);
-        
-    }
+@media screen and (max-width: 768px) {
+ .div2{
+    width: 40%;
+margin-left: 40px;
+margin-bottom: 30px;
+margin-top: 20px;}
+.div4{
+      width: 40%;
+margin-left: 40px;
+margin-bottom: 30px;
+margin-top: 20px;  
+height: 100px;
+}
     
 }
