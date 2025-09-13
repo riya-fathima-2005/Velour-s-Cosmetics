@@ -7,88 +7,102 @@
     background-size: cover;
 
 }
-.divvelora{
+
+.divvelora {
     font-size: 15px;
 }
 
 
 header {
-  margin: 0;
+    margin: 0;
 }
+
 .div1 {
-  background-color: rgb(249, 237, 244);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 5%;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+    background-color: rgb(249, 237, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
+
 .velo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.removebg {
-  height: 50px;
-  width: auto;
-}
-.divvelora h1 {
-  font-size: 22px;
-  color: brown;
-  margin: 0;
-}
-.point {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-}
-.point li {
-  font-size: 15px;
-}
-.input {
-  padding: 6px 12px;
-  border-radius: 5px;
-  border: 1px solid #aaa;
-  font-size: 14px;
-}
-@media (max-width: 768px) {
-  .div1 {
-    flex-direction: column;
-    text-align: center;
-  }
-  .velo {
-    flex-direction: column;
-    margin-bottom: 10px;
-  }
-  .divvelora h1 {
-    font-size: 18px;
-  }
-  .point {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
     gap: 10px;
-    margin-top: 10px;
-  }
-  .input {
-    width: 90%;
-    max-width: 300px;
-  }
 }
-.span{
+
+.removebg {
+    height: 50px;
+    width: auto;
+}
+
+.divvelora h1 {
+    font-size: 22px;
+    color: brown;
+    margin: 0;
+}
+
+.point {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.point li {
+    font-size: 15px;
+}
+
+.input {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .div1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .velo {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .divvelora h1 {
+        font-size: 18px;
+    }
+
+    .point {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .input {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+.span {
     font-size: 30px;
 }
 
-.span:hover{
+.span:hover {
     font-size: 30px;
-color: red;
+    color: red;
 }
 
-main{
-   margin-top: -200px;
-   margin-right: 100px;
+main {
+    margin-top: -200px;
+    margin-right: 100px;
 }
 
 body {
@@ -98,7 +112,7 @@ body {
 
 
 
-.animation1{
+.animation1 {
     text-shadow: 5px 5px 5px rgb(245, 206, 206);
     animation-name: ear;
     animation-duration: 5s;
@@ -106,110 +120,136 @@ body {
     animation-iteration-count: infinite;
     margin-top: ;
 
-   }
-   @keyframes ear{
-0%{left: 0px; top: 0px;}
-50%{left: 100px; top: 0px;}
-100%{left: 0px; top: 0px;}
-   }
-.vedio1{
+}
+
+@keyframes ear {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 100px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.vedio1 {
     height: 1050px;
 }
-.div2{
+
+.div2 {
     height: 470px;
     margin-top: 40px;
     width: 270px;
     background-color: rgba(240, 248, 255, 0.852);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    
+
 }
-.div2:hover{
+
+.div2:hover {
     height: 470px;
     width: 270px;
     background-color: rgba(238, 177, 78, 0.599);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    
+
 }
-.div3{
-    display: flex; 
+
+.div3 {
+    display: flex;
     flex-wrap: wrap;
     overflow: hidden;
     justify-content: space-around;
-    gap:20px;
-    
+    gap: 20px;
+
 }
-.search{
+
+.search {
     color: brown;
 }
 
-.readmore{
-    color: brown; 
+.readmore {
+    color: brown;
     background-color: aliceblue;
     width: 100px;
-     height: 40px;
-      padding: 10px;
-       margin-left: 90px;
-       cursor: pointer;
+    height: 40px;
+    padding: 10px;
+    margin-left: 90px;
+    cursor: pointer;
 }
-.readmore:hover{
-    color: rgb(248, 240, 240); 
+
+.readmore:hover {
+    color: rgb(248, 240, 240);
     background-color: brown;
     width: 100px;
-     height: 40px;
-      padding: 10px;
-       margin-left: 90px;
-       cursor: pointer;
+    height: 40px;
+    padding: 10px;
+    margin-left: 90px;
+    cursor: pointer;
 }
-.more{
-    color: brown; 
+
+.more {
+    color: brown;
     background-color: aliceblue;
     width: 100px;
-     height: 40px;
-      padding: 10px;
-       margin-left: 700px;  
-       margin-bottom: 100px;  
-       border: solid 1px;
-       border-radius: 9px;
-       cursor: pointer;
+    height: 40px;
+    padding: 10px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+    border: solid 1px;
+    border-radius: 9px;
+    cursor: pointer;
 }
-.more:hover{
-    color: rgb(250, 249, 249); 
+
+.more:hover {
+    color: rgb(250, 249, 249);
     background-color: brown;
     width: 100px;
-     height: 40px;
-      padding: 10px;
-       margin-left: 700px;    
+    height: 40px;
+    padding: 10px;
+    margin-left: 700px;
 }
-.Search{
+
+.Search {
     border-color: brown;
     border-style: solid 1px;
 }
-.ab{
+
+.ab {
     color: brown;
     margin-left: 350px;
     text-shadow: 5px 5px 5px grey;
     margin-bottom: 40px;
 }
-.div33{
-   margin-left: 110px; 
-   height: 250px;
+
+.div33 {
+    margin-left: 110px;
+    height: 250px;
 
 }
-.card3{
+
+.card3 {
     height: 390px;
     width: 250px;
     background-color: rgb(250, 218, 218);
     border-radius: 15px;
 }
-.card1{
-    width:250px ;
+
+.card1 {
     width: 250px;
-    border-top-left-radius:15px ;
-    border-top-right-radius: 15px ;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
-.Add{
+
+.Add {
     width: 100px;
     height: 40px;
     color: brown;
@@ -219,14 +259,16 @@ body {
     border-radius: 9px;
     cursor: pointer;
 }
-.card4{
+
+.card4 {
     display: flex;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.Add:hover{
+
+.Add:hover {
     width: 100px;
     height: 40px;
     color: aliceblue;
@@ -234,55 +276,73 @@ body {
     margin-left: 70px;
     border: solid 1px;
     cursor: pointer;
-    
+
 }
-.card7{
-    width:250px ;
+
+.card7 {
+    width: 250px;
     height: 250px;
-    border-top-left-radius:15px ;
-    border-top-right-radius: 15px ;   
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     gap: 10px;
-    
+
 }
-.paradiv{
+
+.paradiv {
     display: flex;
     gap: 20px;
-    
+
 }
-footer{
+
+footer {
     background-color: rgb(244, 217, 221);
     background-size: cover;
     height: 250px;
-color: brown;
+    color: brown;
 }
-.ftr{
+
+.ftr {
     display: flex;
-    justify-content:  space-around;
-   margin-top: 50px;
-   padding-top: 40px;
-    
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 40px;
+
 }
-.email{
+
+.email {
     margin-top: 20px;
     height: 30px;
     width: 200px;
     cursor: pointer;
 }
-.class{
-    width: 80px; height: 30px; margin-top: 10px; color: brown; cursor: pointer;
+
+.class {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    color: brown;
+    cursor: pointer;
 }
-.class:hover{
-    width: 80px; height: 30px; margin-top: 10px; color: brown; background-color: black;
+
+.class:hover {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    color: brown;
+    background-color: black;
 }
-.main11{
+
+.main11 {
     margin-right: 10px;
 }
-.pro{
+
+.pro {
     color: brown;
     text-align: center;
     text-shadow: 5px 5px 5px grey;
 }
-.clean{
+
+.clean {
 
     color: brown;
     display: flex;
@@ -290,29 +350,35 @@ color: brown;
     gap: 20px;
     justify-content: space-around;
 }
-.small{
+
+.small {
     margin-bottom: 200px;
 }
-.li:hover{
+
+.li:hover {
     transition: 1s;
     transform: scale(1.3);
     cursor: pointer;
 
 }
-.rdo{
-text-decoration: none;
-color: brown;
-border: none ;
+
+.rdo {
+    text-decoration: none;
+    color: brown;
+    border: none;
 }
-.rdo:hover{
-text-decoration: none;
-color: rgb(247, 236, 236);
+
+.rdo:hover {
+    text-decoration: none;
+    color: rgb(247, 236, 236);
 
 }
-button{
+
+button {
     border: solid 1px;
 }
-.butttodiv{
+
+.butttodiv {
     display: flex;
     gap: 10px;
     cursor: pointer;
@@ -320,266 +386,396 @@ button{
 
 
 .video-banner {
- position: relative;
- height: 700px;
- overflow: hidden;
- display: flex;
- align-items: center;
- justify-content: center;
- color: #fff;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
+
 .video-bg {
- position: absolute;
- top: 0;
- left: 0;
- height: 700px;
- object-fit: cover;
- z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    object-fit: cover;
+    z-index: -2;
 }
+
 .overlay {
- position: absolute;
- top: 0; left: 0;
- width: 100%; height: 100%;
- background: rgba(0,0,0,0.5);
- z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
+
 .banner-caption {
- text-align: center;
- z-index: 1;
- max-width: 800px;
- padding: 20px;
+    text-align: center;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
 }
+
 .banner-caption h1 {
- font-size: 3rem;
- font-weight: bold;
- margin-bottom: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
+
 .banner-caption p {
- font-size: 1.2rem;
- margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
+
 .btn-banner {
- display: inline-block;
- padding: 12px 25px;
- background: #F5C518;
- color: #000;
- font-weight: bold;
- text-decoration: none;
- border-radius: 6px;
- transition: 0.3s;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #F5C518;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
 }
+
 .btn-banner:hover {
- background: #FFC107;
- color: #111;
+    background: #FFC107;
+    color: #111;
 }
-.div4{
-    width: 270px; height: 250px
+
+.div4 {
+    width: 270px;
+    height: 250px
 }
-.shopby{
-     color: brown; text-align: center; text-shadow: 5px 5px 5px gray; margin-bottom: 40px;
+
+.shopby {
+    color: brown;
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+    margin-bottom: 40px;
 }
-.removebg{
+
+.removebg {
     width: 70px;
     height: 70px;
 }
-.skintoneimage1{
-    width: 500px; 
-    height: 500px; 
+
+.skintoneimage1 {
+    width: 500px;
+    height: 500px;
     margin-left: 500px;
 }
 
-.videoss{
+.videoss {
     display: flex;
     justify-items: center;
     margin-bottom: 80px;
 }
-.vedioo2{
+
+.vedioo2 {
     width: 750px;
-     height: 500px;
-     margin-top: 20px;
-}
-.bestseller{
-color: brown;
- text-align: center;
-  text-shadow: 5px 5px 5px gray;
- margin-top: 50px;
-}
-.shadoe{
-    margin-top: 250px;
-     margin-left: 50px;
-}
-.imgeeestyle{
-    height: 400px; 
-    width: 400px;
-}
-.imgimg2{
-    width: 70px;
-    height: 70px; 
-}
-.sinewi{
-    font-size: 15px;
-}
-.riya{
-    font-size:15px ;
+    height: 500px;
+    margin-top: 20px;
 }
 
-.footervelora{
+.bestseller {
+    color: brown;
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+    margin-top: 50px;
+}
+
+.shadoe {
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.imgeeestyle {
+    height: 400px;
+    width: 400px;
+}
+
+.imgimg2 {
+    width: 70px;
+    height: 70px;
+}
+
+.sinewi {
+    font-size: 15px;
+}
+
+.riya {
+    font-size: 15px;
+}
+
+.footervelora {
     text-align: center;
 }
-.cleanandkind{
+
+.cleanandkind {
     text-align: center;
     margin-top: 80px;
 }
 
 @media screen and (max-width: 768px) {
- .div2{
-    width: 40%;
-margin-left: 40px;
-margin-bottom: 30px;
-margin-top: 20px;}
-
-.sinewi{
-    font-size: 10px;
-}
-.riya{
-    font-size:8px ;
-    gap: 10px;
-}
-
-
-.div4{
-      width: 70%;
-margin-left: 30px;
-margin-bottom: 30px;
-margin-top: 20px;  
-height: 100px;
-}
-.imgimg2{
-    width: 50px;
-    height: 50px; 
-}
-
-.imgeeestyle{
-    height: 00px; 
-    width: 00px;
-    margin-top: 500px;
-}
-
-.clean{
-
-    gap: 20px;
-    margin-left: 40px;
-    margin-top: 400px;
-}
-.ftr{
-   font-size: 10px;
-   gap: 10px;
-   margin-top: 50px;
-
-   
-    
-}
-.email{
-    margin-top: 20px;
-    height: 30px;
-    width: 80px;
-    margin-right: 40px;
-   
-} 
-.more{
-   
-    
-       margin-left: 160px;  
-       margin-bottom: 100px;  
-       border: solid 1px;
-       border-radius: 9px;
-       cursor: pointer;
-}
-.skintoneimage1{
-    width: 250px; 
-    height: 250px; 
-    margin-left: 90px;
-    gap: 10px;
-    
-}
-
-.readmore{
-    width: 90px;
-     height: 30px;
-      padding: 5px;
-       margin-left: 50px;
-      justify-content: center;
+    .div2 {
+        width: 40%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
-    
-.shopby{
 
-     margin-bottom: 30px; 
-     font-size: 15px;
-   margin-right: 200px;
-}
-body{
-    overflow-x: hidden;
-}
-.div2{
-    height: 470px;
-    margin-top: 40px;
-    width: 200px;
-    background-color: rgba(240, 248, 255, 0.852);
-    height: 400px;
-    padding: 20px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px; 
-}
-.vedioo2{
-    width: 150px;
-     height: 150px;
-     margin-left: 46px;
-      
-     
-}
-.bestseller{
-color: brown;
-font-size: 15px;
- margin-top: 50px;
-}
-.shopby{
-     color: brown;
-     text-align: center; 
-     text-shadow: 5px 5px 5px gray;
-      margin-bottom: 40px; 
-      margin-left: 150px;
-      font-size: 15px;
+    .sinewi {
+        font-size: 10px;
     }
-.shadoe{
-    margin-top: 250px;
-     margin-left: 50px;
+
+    .riya {
+        font-size: 8px;
+        gap: 10px;
+    }
+
+
+    .div4 {
+        width: 70%;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        height: 100px;
+    }
+
+    .imgimg2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .imgeeestyle {
+        height: 00px;
+        width: 00px;
+        margin-top: 500px;
+    }
+
+    .clean {
+
+        gap: 20px;
+        margin-left: 40px;
+        margin-top: 400px;
+    }
+
+    .ftr {
+        font-size: 10px;
+        gap: 10px;
+        margin-top: 50px;
+
+
+
+    }
+
+    .email {
+        margin-top: 20px;
+        height: 30px;
+        width: 80px;
+        margin-right: 40px;
+
+    }
+
+    .more {
+
+
+        margin-left: 160px;
+        margin-bottom: 100px;
+        border: solid 1px;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+
+    .skintoneimage1 {
+        width: 250px;
+        height: 250px;
+        margin-left: 90px;
+        gap: 10px;
+
+    }
+
+    .readmore {
+        width: 90px;
+        height: 30px;
+        padding: 5px;
+        margin-left: 50px;
+        justify-content: center;
+    }
+
+    .shopby {
+
+        margin-bottom: 30px;
+        font-size: 15px;
+        margin-right: 200px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .div2 {
+        height: 470px;
+        margin-top: 40px;
+        width: 200px;
+        background-color: rgba(240, 248, 255, 0.852);
+        height: 400px;
+        padding: 20px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .vedioo2 {
+        width: 150px;
+        height: 150px;
+        margin-left: 26px;
+
+
+    }
+
+    .bestseller {
+        color: brown;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .shopby {
+        color: brown;
+        text-align: center;
+        text-shadow: 5px 5px 5px gray;
+        margin-bottom: 40px;
+        margin-left: 150px;
+        font-size: 15px;
+    }
+
+    .shadoe {
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+
+    .ab {
+
+        margin-left: 100px;
+        font-size: 15px;
+        margin-left: 155px;
+        margin-bottom: 50px;
+    }
+
+    .div33 {
+        margin-left: 50px;
+
+    }
+
+    .pro {
+        text-align: center;
+        font-size: 15px;
+        margin: -10px;
+
+    }
+
+    .clean {
+
+        color: brown;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
 }
 
-.ab{
-   
-    margin-left: 100px;
-   font-size: 15px;
-   margin-left: 155px;
-    margin-bottom: 50px;
-}
-.div33{
-   margin-left: 50px; 
+@media screen and (width: 320px) {
 
-}
-.pro{
-    text-align: center;
-   font-size: 15px;
-   margin: -10px;
-   
-}
-.clean{
+    .div1 {
+        background-color: rgb(249, 237, 244);
+        padding: 15px 5%;
+        width: 370px;
+        box-sizing: border-box;
 
-    color: brown;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-     margin-top: 10px;
+    }
+
+    .video-banner {
+        width: 370px;
+    }
+
+    .vedioo2 {
+        width: 120px;
+        height: 500px;
+        margin-top: -170px;
+    }
+
+    .shopby {
+
+        margin-top: -190px;
+        font-size: 15px;
+        margin-right: 250px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main11 {
+        margin-right: 30px;
+    }
+
+    footer {
+        padding: 10px;
+        height: 250px;
+        width: 340px;
+        color: brown;
+    }
 }
 
+
+@media screen and (width: 375px) {
+
+    .div1 {
+        background-color: rgb(249, 237, 244);
+        padding: 15px 5%;
+        width: 380px;
+        box-sizing: border-box;
+
+    }
+    .body{
+        overflow-x: hidden;
+    }
+    .vedioo2{
+        width: 30px;
+        margin-left: 26px;
+    }
+
+    .video-banner {
+        width: 370px;
+    }
+
+
+    .shopby {
+
+        margin-top: -190px;
+        font-size: 15px;
+        margin-right: 250px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main11 {
+        margin-right: 30px;
+    }
+
+    footer {
+        padding: 10px;
+        height: 250px;
+        width: 340px;
+        color: brown;
+    }
 }
