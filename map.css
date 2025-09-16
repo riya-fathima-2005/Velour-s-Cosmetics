@@ -81,3 +81,8 @@ color: brown;
 .class:hover{
     width: 80px; height: 30px; margin-top: 10px; color: brown; background-color: black;
 }
+
+@media  screen and { max-width: 768px;
+    
+
+}
