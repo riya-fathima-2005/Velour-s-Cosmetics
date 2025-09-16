@@ -82,7 +82,203 @@ color: brown;
     width: 80px; height: 30px; margin-top: 10px; color: brown; background-color: black;
 }
 
-@media  screen and { max-width: 768px;
-    
+header {
+  margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.div1 {
+  background-color: rgb(249, 237, 244);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.velo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.removebg {
+  height: 50px;
+  width: auto;
+}
+.divvelora h1 {
+  font-size: 22px;
+  color: brown;
+  margin: 0;
+}
+.point {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.point li {
+  font-size: 15px;
+}
+.input {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 14px;}
 
+.imgicon{
+height: 70px;
+width: 70px;
+}
+.type1velo{
+    font-size: large;
+}
+
+.type1velo{
+color: rgb(82, 74, 74); margin-top: 40px; margin-left: 50px;
+text-align: start;
+}
+.type2velo{
+    text-align: center;
+}
+.map1{
+  width: 1520; height: 650px; 
+}
+
+.class {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    color: brown;
+    cursor: pointer;
+}
+
+.class:hover {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    color: brown;
+    background-color: black;
+}
+
+.main11 {
+    margin-right: 10px;
+}
+
+  .footervelora {
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .div1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .velo {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .divvelora h1 {
+    font-size: 18px;
+  }
+  .point {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .input {
+    width: 90%;
+    max-width: 300px;
+  }
+  .div1 {
+    background-color: rgb(240, 223, 234);
+    width: 323px;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 323px;
+    height: 290px;
+ 
+}
+.riy{
+    font-size: 15px;
+   margin-left: -100px;
+
+}
+.type1velo{
+    font-size: 10px; 
+     margin-left: 10px;
+}
+.type1velo{
+color: brown; margin-top: 40px; margin-left: 10px;
+}
+.par{
+    margin-left: 10px;
+}
+.map1{
+width: 320px; height: 650px; 
+}
+
+    .ftr {
+        font-size: 10px;
+        gap: 10px;
+        margin-top: 50px;
+    }
+footer{
+    background-color: rgb(244, 217, 221);
+    width: 330px;
+}
+
+    .email {
+        margin-top: 20px;
+        height: 30px;
+        width: 80px;
+        margin-right: 40px;
+    }
+      .main11 {
+        margin-right: 30px;
+    }
+    .footervelora {
+    text-align: center;
+}
+.type2velo .par{
+font-size: 2px;
+  overflow-x: hidden;
+
+}
+}
+
+@media (width: 768px) {
+ .div1 {
+    background-color: rgb(240, 223, 234);
+    width: 653px;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 653px;
+    height: 290px;
+ 
+}
+.type2velo .par{
+width: 653px;
+height: 400px;
+  overflow-x: hidden;
+
+}
+footer{
+    background-color: rgb(244, 217, 221);
+    width: 653px;
+}
+.map1{
+  width: 653px;
+}
 }
