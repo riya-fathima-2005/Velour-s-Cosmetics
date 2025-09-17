@@ -282,3 +282,38 @@ footer{
   width: 653px;
 }
 }
+@media (width: 320px) {
+ .body{
+  overflow-x: hidden;
+ }
+}
+
+@media (max-width: 425px) {
+
+ footer{
+    background-color: rgb(244, 217, 221);
+    width: 440px;
+} 
+
+ .div1 {
+    background-color: rgb(240, 223, 234);
+    width: 653px;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 653px;
+    height: 290px;
+ 
+}
+.type2velo .par{
+width: 653px;
+height: 400px;
+  overflow-x: hidden;
+}
+.footervelora{
+  align-items: center;
+}
+
+}

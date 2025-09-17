@@ -98,3 +98,19 @@ transform: translateY(30px);
  background: #FFC107;
  color: #111;
 }
+
+.name3{
+    font-size: large;
+}
+
+@media screen and (max-width: 768px) {
+
+.video-bg {
+ width: 500px;
+}
+.name3{
+    font-size: 10px;
+    margin-left: 50px;
+}
+ 
+}
