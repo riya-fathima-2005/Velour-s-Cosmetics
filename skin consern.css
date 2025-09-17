@@ -18,6 +18,7 @@ header{
 .div1 {
     background-color: rgb(245, 240, 243);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: brown;
     align-items: center;
@@ -72,6 +73,9 @@ color: brown;
    padding: 40px;
     
 }
+.all{
+   font-size: large; 
+}
 .email{
     margin-top: 20px;
     height: 30px;
@@ -87,3 +91,25 @@ color: brown;
 .main11{
     margin-right: 10px;
 }
+.div5{
+    display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+.div5{
+    display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin-left: 80px; padding: 40px;
+}
+.image{
+    background-image: url(bannerimagegallery.png);
+    width: 0px;
+    height: 0px;
+    
+}
+}
+
+@media  screen and (width: 768px;){
+
+    
+}
+    
